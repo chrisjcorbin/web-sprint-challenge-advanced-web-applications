@@ -28,9 +28,21 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain what a token is used for.
+A token is what allows users to make a secure API requests with a web application.
+
 2. What steps can you take in your web apps to keep your data secure?
+There are countless steps that can and should be used to keep data secure in web apps. A few obvious ones that should be implemented in a production environment are:
+a. Require strong passwords
+b. Require token authentication
+c. Perform testing on your web app to make sure it's secure
+d. Create private routes for sensitive information you'd like to display to your logged in user.
+These are just a few basic ones and can be expanded upon based on demand.
+
 3. Describe how web servers work.
+Web Servers are what your web site (web apps) are deployed to. They are the structure of everything you're showing to your user. Any action that requires displaying the information you want to present, authentication, and everything else related, can and usually is, handled by your web server.
+
 4. Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+The primary or most-commonly-used HTTP verbs (or methods, as they are properly called) are POST, GET, PUT, PATCH, and DELETE. These correspond to create, read, update, and delete (or CRUD) operations, respectively. There are a number of other verbs, too, but are utilized less frequently.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
