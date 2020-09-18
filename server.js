@@ -86,10 +86,17 @@ let colors = [
       hex: "#8a2be2"
     },
     id: 11
+  },
+  {
+    color: "rebeccapurple",
+    code: {
+      hex: "#663399"
+    },
+    id: 12
   }
 ];
 
-let nextId = 12;
+let nextId = 13;
 
 function authenticator(req, res, next) {
   const { authorization } = req.headers;
